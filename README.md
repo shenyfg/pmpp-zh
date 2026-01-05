@@ -9,7 +9,9 @@ Programming Massively Parallel Processors Fourth Edition（大规模并行处理
 
 题目都在`exercises`里，答案都在`solutions`里。
 
-需要注意的是，所有`exercises`都由英文原题翻译而来，所有`solutions`都是作者自己学习过程中的习作。如果有错误，欢迎勘误。
+需要注意的是，所有`exercises`都由英文原题翻译而来，所有`solutions`都是笔者自己学习过程中的练习。如果有错误，欢迎勘误。
+
+`code`中包含了书中示例的实现，使用纯cuda代码编写，使用`make`编译。
 
 ## 参考
 
