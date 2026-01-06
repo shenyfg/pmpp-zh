@@ -55,12 +55,13 @@ int main() {
     printf("  ✅设备中的SM数量: %d\n", deviceProp.multiProcessorCount);
     printf("  ✅块中每个纬度上的最大线程数，x: %d, y: %d, z: %d\n",
            deviceProp.maxThreadsDim[0], deviceProp.maxThreadsDim[1],
-           deviceProp.maxThreadsDim[2] );
+           deviceProp.maxThreadsDim[2]);
     printf("  ✅网格中每个维度的最大块数，x: %d, y: %d, z: %d\n",
            deviceProp.maxGridSize[0], deviceProp.maxGridSize[1],
-           deviceProp.maxGridSize[2] );
+           deviceProp.maxGridSize[2]);
     printf("  ✅每个SM允许的最大寄存器数: %d\n", deviceProp.regsPerBlock);
     printf("  ✅Warp大小: %d\n", deviceProp.warpSize);
+    printf("  ✅每个SM中的共享内存量: %ld\n", deviceProp.sharedMemPerBlock);
     printf("\n");
   }
 
